@@ -1,0 +1,23 @@
+{
+  "name": "smartrasoi-backend",
+  "version": "1.0.0",
+  "description": "Backend for SmartRasoi – Smart recipe recommendation system",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+  "dev": "nodemon index.js",
+  "seed": "node seeders/recipeSeeder.js"
+},
+  "author": "Aurosmita Sahoo",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^4.19.2",
+    "mysql2": "^3.11.0",
+    "sequelize": "^6.37.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
