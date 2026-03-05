@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 
-// DB & Models
+// DB & Models 
 require("./models/Recipe"); // Register model
 
 // Routes
