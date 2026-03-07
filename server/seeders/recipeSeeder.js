@@ -1,6 +1,6 @@
 const Recipe = require("../models/Recipe");
 
-const recipesData = [
+const recipesData = [ 
   {
     name: "Paneer Butter Masala",
     ingredients: "Paneer, Butter, Cream, Tomato, Spices",
