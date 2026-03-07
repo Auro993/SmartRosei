@@ -1,4 +1,4 @@
-exports.success = (data) => ({
+exports.success = (data) => ({ 
   success: true,
   data
 });
