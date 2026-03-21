@@ -1,4 +1,4 @@
-const recipeService = require("../services/recipeService");
+const recipeService = require("../services/recipeService"); 
 
 exports.getRecipes = async (req, res, next) => {
   try {
