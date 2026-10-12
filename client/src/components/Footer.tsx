@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";     
 import { ChefHat, Heart } from "lucide-react";
 
-export function Footer() {
+export function Footer() { 
   return (
     <footer className="bg-foreground text-background py-12 mt-20">
       <div className="container mx-auto px-4">
